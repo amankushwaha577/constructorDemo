@@ -1,13 +1,22 @@
 package main;
 
 public class ConstructorDemo {
-    public static void main(String[] args) {
-        private int number;
-        private String name;
+    private int number;
+    private String name;
 
-        public int getNumber()
-        {
-
-        }
+    public ConstructorDemo(int num, String nam) {
+        this.number = num;
+        this.name = nam;
     }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public String getString() {
+        return name;
+    }
+
+
+
 }
